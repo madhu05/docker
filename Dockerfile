@@ -3,8 +3,8 @@ FROM ubuntu:16.04
 
 MAINTAINER Kimbro Staken version: 0.1
 
-RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
+#RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-EXPOSE 80
+#EXPOSE 80
 
-CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+#CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
